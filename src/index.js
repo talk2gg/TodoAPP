@@ -1,5 +1,5 @@
 const express = require('express')
-
+const {json} = require('express')
 const connect  = require('./config/database')
 const todoRoute = require('./router/todoRoutes')
 

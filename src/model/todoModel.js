@@ -13,6 +13,6 @@ const todoschema = new Schema({
     },
     {timestamps:true}
 ) 
- const todoModel = model('todo', todoschema)
+ const todoModel = model('Todo', todoschema)
  module.exports = todoModel
  
